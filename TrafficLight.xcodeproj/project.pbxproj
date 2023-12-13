@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		770CEAF82B2A05DC0095A50F /* SwiftButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770CEAF72B2A05DC0095A50F /* SwiftButtonView.swift */; };
 		776CF7362B29B5DE00C5A8EA /* TrafficLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776CF7352B29B5DE00C5A8EA /* TrafficLightApp.swift */; };
 		776CF7382B29B5DE00C5A8EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776CF7372B29B5DE00C5A8EA /* ContentView.swift */; };
 		776CF73A2B29B5DE00C5A8EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776CF7392B29B5DE00C5A8EA /* Assets.xcassets */; };
 		776CF73D2B29B5DE00C5A8EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776CF73C2B29B5DE00C5A8EA /* Preview Assets.xcassets */; };
+		776CF7442B29B60400C5A8EA /* SwiftCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776CF7432B29B60400C5A8EA /* SwiftCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		770CEAF72B2A05DC0095A50F /* SwiftButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftButtonView.swift; sourceTree = "<group>"; };
 		776CF7322B29B5DE00C5A8EA /* TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		776CF7352B29B5DE00C5A8EA /* TrafficLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightApp.swift; sourceTree = "<group>"; };
 		776CF7372B29B5DE00C5A8EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		776CF7392B29B5DE00C5A8EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		776CF73C2B29B5DE00C5A8EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		776CF7432B29B60400C5A8EA /* SwiftCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				776CF7372B29B5DE00C5A8EA /* ContentView.swift */,
 				776CF7392B29B5DE00C5A8EA /* Assets.xcassets */,
 				776CF73B2B29B5DE00C5A8EA /* Preview Content */,
+				776CF7432B29B60400C5A8EA /* SwiftCircleView.swift */,
+				770CEAF72B2A05DC0095A50F /* SwiftButtonView.swift */,
 			);
 			path = TrafficLight;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770CEAF82B2A05DC0095A50F /* SwiftButtonView.swift in Sources */,
+				776CF7442B29B60400C5A8EA /* SwiftCircleView.swift in Sources */,
 				776CF7382B29B5DE00C5A8EA /* ContentView.swift in Sources */,
 				776CF7362B29B5DE00C5A8EA /* TrafficLightApp.swift in Sources */,
 			);
